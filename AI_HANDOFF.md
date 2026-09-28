@@ -1,15 +1,22 @@
 # AI_HANDOFF
 
-- サイトURL：https://noraelf-creator.github.io/mother-president-index/
-- GitHub：https://github.com/noraelf-creator/mother-president-index
-- 公開：mainブランチのルート、GitHub Pages。
-- 現在の本文：data/catalog.js。ページ一覧・本文・検索・制作状況を共有。本文は既存資料抽出。
-- 原資料：mother_president_review_v3.html（正本候補）、2026-09-24第0事件ロック仕様書、clean原文保存資料、制作スタジオ成果物。
-- 編集：本文を変えるなら根拠を確認しcatalog.jsまたはビルド元を更新。build.py再実行はcatalog.jsを置換するため注意。sources/は編集禁止。
-- 同期：data/config.jsにSupabase URLと公開キーだけ設定。service_roleは禁止。SQLはsupabase.sql。author_notesはpage_id／section_id／title／body／status／character／card／created_at／updated_at／owner_id／kind。
-- 作者権限：author_private.index_authorsのUUIDだけ書込可能。RLS必須。SQLのポリシー／トリガーは初回用。
-- メモ・TODOは共通テーブル。公開閲覧／作者のみ書込。20秒再取得。更新日時で競合検出。
-- 未設定時は編集無効。明示的に有効化した仮保存はlocalStorageのみ、クラウドとは称さない。
-- 次工程：作者のSupabase設定、RLS匿名書込拒否・2端末同期の実確認、実ココフォリア検証、HO PDF作成。
-- 更新：git add、commit、push。公開URLのHTTP確認後に完了を報告。
-- 巨大未使用素材・INDD・BGM・他作品画像・認証情報は公開しない。
+公開：https://noraelf-creator.github.io/mother-president-index/
+Git repo: review_site/.git （main）。synced sources/ と元シナリオ資料は編集禁止。
+
+## 本文
+
+build-v2.py が build.py を呼び原資料から生成後、v2拡張。catalog.jsが正本の表示データ、分野JSONは派生ビュー。旧page_idと既存data-sectionは維持。新メモは同じpage_id/section_idを使う。原ファイルはarchive/にバイト一致コピー。本文detailsはINDEX内でsectionへ変換。原HTML自体は無変更。
+
+作者指定の変更はサラー【横暴】とcard_09特殊調査の公開条件のみ。card_09_before_yokoboとarchive/reviews/に修正前を保存。他資料へ設定を推測で広げない。初期HOを最新と偽らず旧稿表示。
+
+## メモ
+
+js/store.js + backend/worker.mjs。旧localStorage mother-index-local-v1 は保全。mother-index-outbox-v2は未同期下書き、mother-index-author-v2は専用トークンだけ。編集キーを保存しない。サーバーSecret AUTHOR_KEY_HASH で256bitランダムキーのSHA256を照合。実デプロイ未実施。data/config.js memoApiは空。編集は無効。
+
+アカウントへの接続が次の必須作業。設定完了後PC-A/PC-Bで実確認し、未完了表示を更新。旧supabase.sqlはv1互換資料で現在使用しない。メール/パスワード認証へ戻さない。
+
+## 検証・公開
+
+python build-v2.py → node test-v2.mjs → python validate-v2.py → python release-v2.py。
+test-v2.mjsはローカルSQLiteとjsdomでの試験。実DB試験や実ブラウザーとは区別。
+公開は review_site をgit commit/push。旧publish.cjsは使用しない（旧docsを上書きする）。ブラウザーでHTTPS公開版を確認。release-v2.pyでZIP更新、ZIPは公開git内に入れない。

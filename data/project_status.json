@@ -1,0 +1,28 @@
+{
+  "version": "AUTHOR INDEX v2.0",
+  "updated": "2026-09-28T16:51+09:00",
+  "phase": "資料統合・作者確認／ココフォリア実機検証待ち",
+  "completion": "全体完成率は未測定。収録状況を表示し、推定％は付けません。",
+  "locked": [
+    "第0事件：2026-09-24 基本設計ロック仕様書"
+  ],
+  "pending": [
+    "別荘事件v3：正本候補・作者確認待ち",
+    "酒の入手・配分、斧の配置、調査回数・公開順",
+    "旧HO／EDとv3の最終整合",
+    "HO PDF・本番カード／読み合わせPNG",
+    "実ココフォリア投入・実テストプレイ"
+  ],
+  "todos": [
+    "HO PDF作成",
+    "本番調査カードPNG完成",
+    "本番読み合わせPNG完成",
+    "ココフォリア取込",
+    "シーン確認",
+    "テストプレイ",
+    "最終校正"
+  ],
+  "siteUrl": "https://noraelf-creator.github.io/mother-president-index/",
+  "repository": "https://github.com/noraelf-creator/mother-president-index",
+  "cloud": "編集キーAPI実装済み／Cloudflare接続待ち"
+}

@@ -1,0 +1,650 @@
+[
+  {
+    "url": "archive/reviews/review_v3_before_yokobo.html",
+    "name": "mother_president_review_v3.html",
+    "status": "旧稿",
+    "bytes": 38831,
+    "sha256": "eb0c6a2b1368ce3ae4649553ff3fc267c2d6ef35c9b5cd49d46686bbc66b70b9",
+    "modified": "2026-09-26T21:01"
+  },
+  {
+    "url": "archive/instructions/index-v2.txt",
+    "name": "貼り付けたテキスト.txt",
+    "status": "現在版",
+    "bytes": 20049,
+    "sha256": "402f992cf1b823cdad96eda0d229901437b5ee166131b9f7310cc04365220941",
+    "modified": "2026-09-28T16:31"
+  },
+  {
+    "url": "archive/original/archive.html",
+    "name": "archive.html",
+    "status": "旧稿",
+    "bytes": 121304,
+    "sha256": "a99041cfc88e19852be2f0d36cd041f2f4cf0eb0b6898ac9bed10e23e8a86d08",
+    "modified": "2026-09-21T21:33"
+  },
+  {
+    "url": "archive/original/archive_manifest.json",
+    "name": "archive_manifest.json",
+    "status": "旧稿",
+    "bytes": 728,
+    "sha256": "47b54b44d17eb051ed46abb5ab11cb265e9a0475055717ef9585d74893cf35c5",
+    "modified": "2026-09-23T17:32"
+  },
+  {
+    "url": "archive/original/clean/chase/01.html",
+    "name": "01.html",
+    "status": "旧稿",
+    "bytes": 9271,
+    "sha256": "c80427be78ec4a7bfe224c03a78195a381573613d27a859fa1aa6c38b4daf901",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/chase/02.html",
+    "name": "02.html",
+    "status": "旧稿",
+    "bytes": 5094,
+    "sha256": "407b55aebe1ea820b29cdaeddb7fcd37baf49f0fbb9fe5b9d4d3a24b6b9edb6d",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/chase/03.html",
+    "name": "03.html",
+    "status": "旧稿",
+    "bytes": 5354,
+    "sha256": "0bec72ff6dea9eb250fbad737c49eb504a10fcb1ae152e1c3030bf3fab291dc3",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/chase/04.html",
+    "name": "04.html",
+    "status": "旧稿",
+    "bytes": 47026,
+    "sha256": "c5c04b726063bbb072936860cfc02b8a57dfe98daaf520abd36bb7b2d1345ca1",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/clues/01_sarah_body.html",
+    "name": "01_sarah_body.html",
+    "status": "旧稿",
+    "bytes": 1218,
+    "sha256": "4cc7b3c22ae0c23c76820b67c56edff19652d2952c99a49a763b8885a0baf197",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/clues/02_luke.html",
+    "name": "02_luke.html",
+    "status": "旧稿",
+    "bytes": 1772,
+    "sha256": "35cc45e519fdfc65deaaab3a47d2d581baca7d1302168be7a8025a5033a88d4e",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/clues/03_doc.html",
+    "name": "03_doc.html",
+    "status": "旧稿",
+    "bytes": 930,
+    "sha256": "03e6b17f58d4605d03e808800fe7c80dd1715078cc3a8f3c84fefc6a39d77475",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/clues/04_marty.html",
+    "name": "04_marty.html",
+    "status": "旧稿",
+    "bytes": 1149,
+    "sha256": "8e21e8ea2600e41f9c3c785a0b863861823c065d45fd61b20fe5aa92e1e39ded",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/clues/05_outside_1.html",
+    "name": "05_outside_1.html",
+    "status": "旧稿",
+    "bytes": 1638,
+    "sha256": "a54e610f6ee293c00f4e889c15532ab538f0333434743c05dc60eb060429b77b",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/clues/06_outside_2.html",
+    "name": "06_outside_2.html",
+    "status": "旧稿",
+    "bytes": 618,
+    "sha256": "bab279574f9728d09d687f913b5699f83003ee4ebd2f5b7d83070ce58177548f",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/clues/07_mystery_man_1.html",
+    "name": "07_mystery_man_1.html",
+    "status": "旧稿",
+    "bytes": 1803,
+    "sha256": "af605de5ea02dfa96bf62000ecf40b01b8ad01e94907efbb5e59c0c73eeb3cdf",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/clues/08_mystery_man_2.html",
+    "name": "08_mystery_man_2.html",
+    "status": "旧稿",
+    "bytes": 1410,
+    "sha256": "d92233dc1bd323e37e6e0ff524e6556324e3de6493362a5f11c5c73249213fc6",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/clues/09_villa.html",
+    "name": "09_villa.html",
+    "status": "旧稿",
+    "bytes": 1041,
+    "sha256": "cace828815cf769591452d67207d640379beba6329e0bdf007dad0a41a1c079d",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/endings/01.html",
+    "name": "01.html",
+    "status": "旧稿",
+    "bytes": 6773,
+    "sha256": "e31cd17ffc1a40fa5ec9361459f13d3b999ebb33cadd77f66486afa8a35b8b9b",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/endings/02.html",
+    "name": "02.html",
+    "status": "旧稿",
+    "bytes": 4591,
+    "sha256": "3eee356a1dfa63925aa29e40aec8018d75bdeb8af485557bfc64deba1d46069a",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/endings/03.html",
+    "name": "03.html",
+    "status": "旧稿",
+    "bytes": 6696,
+    "sha256": "f62d6fece9996cf43c1ff3a6dfea80e2fb91c79e24e608b7f7d239e481918979",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/endings/04.html",
+    "name": "04.html",
+    "status": "旧稿",
+    "bytes": 5080,
+    "sha256": "f5a5a35ac2d09504dc84010104a8f4f55d767a4985efef58d541169a6ddfb9a5",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/endings/05.html",
+    "name": "05.html",
+    "status": "旧稿",
+    "bytes": 5008,
+    "sha256": "6b2c4accfb675e06cab9759e8d8ee33efb0d8988edc67e4b559562bcb20c04dd",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/endings/06.html",
+    "name": "06.html",
+    "status": "旧稿",
+    "bytes": 9030,
+    "sha256": "54b4dc9ea4ecf58161f3504c92d04e1b0d2a71a417437e959a3f551c6210aa2f",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/endings/07.html",
+    "name": "07.html",
+    "status": "旧稿",
+    "bytes": 5533,
+    "sha256": "6e0b972a90f2e83df5e6ef298508ecd2f05a9fc3c5a24b6a6605e388ef53fb46",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/endings/doc_marty.html",
+    "name": "doc_marty.html",
+    "status": "旧稿",
+    "bytes": 9903,
+    "sha256": "31181ea8b9da1a43d52e92e3f1f5a083bae21d1cf9ac9e6c3b152c2990d42030",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/endings/luke.html",
+    "name": "luke.html",
+    "status": "旧稿",
+    "bytes": 11398,
+    "sha256": "0bc087ed939bdafaf89fd2b9ade83d97bc2f0f6f62b7b6aaa4bd7f2c45df7335",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/endings/sarah.html",
+    "name": "sarah.html",
+    "status": "旧稿",
+    "bytes": 7120,
+    "sha256": "738061c4e54af4a99c27b46a2cf6827957bceac749f7508393cf911731fd41f7",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/endings/true_endings.html",
+    "name": "true_endings.html",
+    "status": "旧稿",
+    "bytes": 1233,
+    "sha256": "a200ed81bb71210026a9d9b7170dc601e77ce9d1f474aaa97ffdd434e3fdd445",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/ho/doc.html",
+    "name": "doc.html",
+    "status": "旧稿",
+    "bytes": 5526,
+    "sha256": "aaa50867264425301789d877886f2fb06b65198e045d911fb5b4c5f1239e92cf",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/ho/luke.html",
+    "name": "luke.html",
+    "status": "旧稿",
+    "bytes": 5742,
+    "sha256": "0f04dd98f2d8609d7f0ce977896e9bbe3224bf3ba843d6de00b4e3fba14ad24a",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/ho/marty.html",
+    "name": "marty.html",
+    "status": "旧稿",
+    "bytes": 6800,
+    "sha256": "e738aa908e7b121152d0937e8c84fd7e2154f44d4cd1c338ad452cb17b21b48e",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/ho/sarah.html",
+    "name": "sarah.html",
+    "status": "旧稿",
+    "bytes": 5516,
+    "sha256": "99fa21c658040c7e3bfad50cbcaf14f10fd42292a57208ae721c79934636122e",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/reading/index.html",
+    "name": "index.html",
+    "status": "旧稿",
+    "bytes": 22337,
+    "sha256": "b3e4fbbc8159c4ee88f06e29353e2bfedeb4941df05b704797610dad5d38dfa1",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/timeline/doc.html",
+    "name": "doc.html",
+    "status": "旧稿",
+    "bytes": 5977,
+    "sha256": "413ff146224931d0a137b98d3ff9b88613cb4cab56896cd0f386c482bfaab1be",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/timeline/luke.html",
+    "name": "luke.html",
+    "status": "旧稿",
+    "bytes": 5638,
+    "sha256": "e03eab5f30398faa66f40af2c14ae09dad684ab97e521e80ab93a75f963d7b07",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/timeline/marty.html",
+    "name": "marty.html",
+    "status": "旧稿",
+    "bytes": 9032,
+    "sha256": "8b8c38563136e4206f3a613464d6025790f6e552e4a850fc8f45395ae2685bfd",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/timeline/sarah.html",
+    "name": "sarah.html",
+    "status": "旧稿",
+    "bytes": 6217,
+    "sha256": "ee28673ea3b6388951b811e558d665e38a455db4e26acf48102366bccd2211ce",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/votes/01_culprit.html",
+    "name": "01_culprit.html",
+    "status": "旧稿",
+    "bytes": 604,
+    "sha256": "2441c98f17ed82e28c98714b686cb631ddf0238cc4e93b5eeada93a156060096",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/votes/02_sarah.html",
+    "name": "02_sarah.html",
+    "status": "旧稿",
+    "bytes": 670,
+    "sha256": "a1126a71d42aa1815fde8473fca8526815740cb0fe652ec70441bb9cf37808e8",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/votes/03_marty.html",
+    "name": "03_marty.html",
+    "status": "旧稿",
+    "bytes": 772,
+    "sha256": "0a60b15cb36024f143ddb9a6c73143fe809acac67efc01a793fd74749bd35665",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/votes/04_mystery_man.html",
+    "name": "04_mystery_man.html",
+    "status": "旧稿",
+    "bytes": 778,
+    "sha256": "a42ee85c6cd94d40ffc229b19599b48e2bb5efd40a0bfbaafc421540be5ab4f7",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/clean/votes/05_luke.html",
+    "name": "05_luke.html",
+    "status": "旧稿",
+    "bytes": 858,
+    "sha256": "831d916f486a6cc2777795d1a63c19adf3acf9d658354fc88c48db3bf30a8bb4",
+    "modified": "2026-09-23T17:35"
+  },
+  {
+    "url": "archive/original/css/style.css",
+    "name": "style.css",
+    "status": "旧稿",
+    "bytes": 566,
+    "sha256": "443ff1570aa5e331c7f5687d66f9696f843376843611e7c935b3a3b4ab2e13e2",
+    "modified": "2026-09-21T21:33"
+  },
+  {
+    "url": "archive/original/endings/missing-endings.html",
+    "name": "missing-endings.html",
+    "status": "旧稿",
+    "bytes": 24441,
+    "sha256": "af9fd13615750b8cf95aa148a9a9ca3a9eee7b05d461b71134a9d718d2c50e4c",
+    "modified": "2026-09-21T21:33"
+  },
+  {
+    "url": "archive/original/index.html",
+    "name": "index.html",
+    "status": "旧稿",
+    "bytes": 3246,
+    "sha256": "6d8a7107c5c67c70905a2b20ee8b079a6ff0e65801d2386f97967ac9a65665a6",
+    "modified": "2026-09-22T19:53"
+  },
+  {
+    "url": "archive/original/reader.html",
+    "name": "reader.html",
+    "status": "旧稿",
+    "bytes": 2534,
+    "sha256": "7e1a9313c7019bf81e394105b7445fa34b4c280e39c67562c9077865669c0265",
+    "modified": "2026-09-21T21:43"
+  },
+  {
+    "url": "archive/drafts/locked.md",
+    "name": "00_LOCKED_SPEC_第0事件_未来人は誰だ.md",
+    "status": "現在版",
+    "bytes": 36658,
+    "sha256": "813629c81155e95375cb972eb112876f8c7664399aa073ae7ebaa7f07dbcce39",
+    "modified": "2026-09-24T12:31"
+  },
+  {
+    "url": "archive/drafts/draft_v1.md",
+    "name": "前半改稿案.md",
+    "status": "旧稿",
+    "bytes": 50405,
+    "sha256": "0cbe2bd7b328072860ac442050b8fcd234a9c6bc7de44498d454d57b31add9c4",
+    "modified": "2026-09-23T22:20"
+  },
+  {
+    "url": "archive/drafts/draft_v2.md",
+    "name": "シナリオ設計稿_v2.md",
+    "status": "旧稿",
+    "bytes": 49048,
+    "sha256": "7fc6941c1472e155538031026466d105c3fed981d24d1d6952fb236f322d3997",
+    "modified": "2026-09-24T00:25"
+  },
+  {
+    "url": "archive/zips/お母さんは大統領_前半改稿案_v1.zip",
+    "name": "お母さんは大統領_前半改稿案_v1.zip",
+    "status": "旧稿",
+    "bytes": 18046,
+    "sha256": "f66ac0a0e3e3e4a270910ce22442e69290b82fb57d9e3a2e733b724aa2601901",
+    "modified": "2026-09-23T22:21"
+  },
+  {
+    "url": "archive/zips/お母さんは大統領_第0事件_ロック仕様書.zip",
+    "name": "お母さんは大統領_第0事件_ロック仕様書.zip",
+    "status": "旧稿",
+    "bytes": 13458,
+    "sha256": "62383b7d1b690d77b72ad670d54c675dae1813a59f786962a2d786e2616efd37",
+    "modified": "2026-09-24T12:33"
+  },
+  {
+    "url": "archive/zips/お母さんは大統領_第0事件_設計稿_v2.zip",
+    "name": "お母さんは大統領_第0事件_設計稿_v2.zip",
+    "status": "旧稿",
+    "bytes": 17526,
+    "sha256": "02b523c7d6a3c5ed26388ceb530ef051d11366282ff6b0d3dc8bee5b64b1a5fc",
+    "modified": "2026-09-24T11:22"
+  },
+  {
+    "url": "archive/reviews/mother_president_review_v1.html",
+    "name": "mother_president_review_v1.html",
+    "status": "旧稿",
+    "bytes": 35050,
+    "sha256": "c1a6b85828f6fd6b1128527c358aaba3b0e932a385e4b9b068f9f968f46e61fa",
+    "modified": "2026-09-25T01:20"
+  },
+  {
+    "url": "archive/reviews/mother_president_review_v1.zip",
+    "name": "mother_president_review_v1.zip",
+    "status": "旧稿",
+    "bytes": 11675,
+    "sha256": "6eeab92c688c8824eb16955784dacffa22ba30a98be755977a669238fcdf5bb6",
+    "modified": "2026-09-25T17:02"
+  },
+  {
+    "url": "archive/reviews/mother_president_review_v3.html",
+    "name": "mother_president_review_v3.html",
+    "status": "旧稿",
+    "bytes": 38831,
+    "sha256": "eb0c6a2b1368ce3ae4649553ff3fc267c2d6ef35c9b5cd49d46686bbc66b70b9",
+    "modified": "2026-09-26T21:01"
+  },
+  {
+    "url": "archive/full/review_tmp.html",
+    "name": "review_tmp.html",
+    "status": "旧稿",
+    "bytes": 35050,
+    "sha256": "c1a6b85828f6fd6b1128527c358aaba3b0e932a385e4b9b068f9f968f46e61fa",
+    "modified": "2026-09-25T01:20"
+  },
+  {
+    "url": "archive/full/archive.html",
+    "name": "archive.html",
+    "status": "旧稿",
+    "bytes": 121304,
+    "sha256": "a99041cfc88e19852be2f0d36cd041f2f4cf0eb0b6898ac9bed10e23e8a86d08",
+    "modified": "2026-09-21T21:33"
+  },
+  {
+    "url": "archive/full/reader.html",
+    "name": "reader.html",
+    "status": "旧稿",
+    "bytes": 2534,
+    "sha256": "7e1a9313c7019bf81e394105b7445fa34b4c280e39c67562c9077865669c0265",
+    "modified": "2026-09-21T21:43"
+  },
+  {
+    "url": "archive/full/missing-endings.html",
+    "name": "missing-endings.html",
+    "status": "旧稿",
+    "bytes": 24441,
+    "sha256": "af9fd13615750b8cf95aa148a9a9ca3a9eee7b05d461b71134a9d718d2c50e4c",
+    "modified": "2026-09-21T21:33"
+  },
+  {
+    "url": "archive/production/MOTHER_PRESIDENT_GLOBAL_EDIT/MOTHER_PRESIDENT_GLOBAL_EDIT.zip",
+    "name": "MOTHER_PRESIDENT_GLOBAL_EDIT.zip",
+    "status": "旧稿",
+    "bytes": 16284827,
+    "sha256": "c66ab6327f91ec5aac3b1c113f0d2105134745309c4f1575a64d6bf3466773ea",
+    "modified": "2026-09-28T00:51"
+  },
+  {
+    "url": "archive/production/MOTHER_PRESIDENT_GLOBAL_EDIT/AI_HANDOFF.md",
+    "name": "AI_HANDOFF.md",
+    "status": "旧稿",
+    "bytes": 2364,
+    "sha256": "0b2905d54ff13d4ccbcd7b03bd849f2bc5e1715cde635474ae456ad7cbff569f",
+    "modified": "2026-09-28T00:51"
+  },
+  {
+    "url": "archive/production/MOTHER_PRESIDENT_GLOBAL_EDIT/PROJECT_STATUS.md",
+    "name": "PROJECT_STATUS.md",
+    "status": "旧稿",
+    "bytes": 3314,
+    "sha256": "d2a7427f336492f12bfb28076da11caec841da87c435569dc0915ddbac64a203",
+    "modified": "2026-09-28T00:51"
+  },
+  {
+    "url": "archive/production/MOTHER_PRESIDENT_CARD_MAKER/CARD_PACK.zip",
+    "name": "CARD_PACK.zip",
+    "status": "旧稿",
+    "bytes": 1437504,
+    "sha256": "6803e196f17f08b27b91937abca1a88557ba2f4bfb60485b9bdba2a4de619a83",
+    "modified": "2026-09-28T01:02"
+  },
+  {
+    "url": "archive/production/MOTHER_PRESIDENT_CARD_MAKER/cards_png.zip",
+    "name": "cards_png.zip",
+    "status": "旧稿",
+    "bytes": 1437504,
+    "sha256": "262372c0b1a01d8e1f4b712e7fbf32251e1bb41f2f5f57ee529f938a60e4bcf5",
+    "modified": "2026-09-28T01:03"
+  },
+  {
+    "url": "archive/production/MOTHER_PRESIDENT_CARD_MAKER/MOTHER_PRESIDENT_CARD_MAKER.zip",
+    "name": "MOTHER_PRESIDENT_CARD_MAKER.zip",
+    "status": "旧稿",
+    "bytes": 18846833,
+    "sha256": "8a9928635ab0423aa82e2b231f2dfbf4da3761e624573b14285f29c153cc861a",
+    "modified": "2026-09-28T01:03"
+  },
+  {
+    "url": "archive/production/MOTHER_PRESIDENT_CARD_MAKER/AI_HANDOFF.md",
+    "name": "AI_HANDOFF.md",
+    "status": "旧稿",
+    "bytes": 1299,
+    "sha256": "f70cad12c4a85c5ae5afbcc4f75c5e596e878ccdcc2a4aca77d84dcd5f353bc1",
+    "modified": "2026-09-28T01:02"
+  },
+  {
+    "url": "archive/production/MOTHER_PRESIDENT_CARD_MAKER/README.md",
+    "name": "README.md",
+    "status": "旧稿",
+    "bytes": 3467,
+    "sha256": "975be77ee4057b19ed6b280d79e2dbae23d9496c2a53294a28851e8a5bfed006",
+    "modified": "2026-09-28T01:02"
+  },
+  {
+    "url": "archive/production/MOTHER_PRESIDENT_MARKER_MAKER/MARKER_PACK.zip",
+    "name": "MARKER_PACK.zip",
+    "status": "旧稿",
+    "bytes": 24411,
+    "sha256": "d7109a22dab9161bbfe9ab47f02ebf667e0ab471061859f0cee29001f969df8b",
+    "modified": "2026-09-28T01:13"
+  },
+  {
+    "url": "archive/production/MOTHER_PRESIDENT_MARKER_MAKER/MOTHER_PRESIDENT_MARKER_MAKER.zip",
+    "name": "MOTHER_PRESIDENT_MARKER_MAKER.zip",
+    "status": "旧稿",
+    "bytes": 14414355,
+    "sha256": "e24232ce93bd262136691d2b165453b4d027db4f3729c3c4e2fd673e37f10fc2",
+    "modified": "2026-09-28T01:14"
+  },
+  {
+    "url": "archive/production/MOTHER_PRESIDENT_MARKER_MAKER/AI_HANDOFF.md",
+    "name": "AI_HANDOFF.md",
+    "status": "旧稿",
+    "bytes": 1439,
+    "sha256": "b91b31e021c9e8e0f6d6a072e8539064ebbba618cc089888cafbfd57ed154f97",
+    "modified": "2026-09-28T01:14"
+  },
+  {
+    "url": "archive/production/MOTHER_PRESIDENT_MARKER_MAKER/README.md",
+    "name": "README.md",
+    "status": "旧稿",
+    "bytes": 3066,
+    "sha256": "f7489c44b2444680de4fe92c3afb827e1b891a291717fcac190378cd84f0dc36",
+    "modified": "2026-09-28T01:14"
+  },
+  {
+    "url": "archive/production/MOTHER_PRESIDENT_PACK_ASSEMBLER/BASE_BOARD.zip",
+    "name": "BASE_BOARD.zip",
+    "status": "旧稿",
+    "bytes": 3414942,
+    "sha256": "38de639cc062df4f602600935206bc56d9e3ef439051e44f05bba1081663fcf0",
+    "modified": "2026-09-28T01:45"
+  },
+  {
+    "url": "archive/production/MOTHER_PRESIDENT_PACK_ASSEMBLER/CARD_PACK.zip",
+    "name": "CARD_PACK.zip",
+    "status": "旧稿",
+    "bytes": 1437504,
+    "sha256": "6803e196f17f08b27b91937abca1a88557ba2f4bfb60485b9bdba2a4de619a83",
+    "modified": "2026-09-28T01:02"
+  },
+  {
+    "url": "archive/production/MOTHER_PRESIDENT_PACK_ASSEMBLER/FINAL_CCFOLIA.zip",
+    "name": "FINAL_CCFOLIA.zip",
+    "status": "旧稿",
+    "bytes": 5175223,
+    "sha256": "18eb97b964c2024b8b314d8d18220432259e544fefb24f3d82643bc8e43acc77",
+    "modified": "2026-09-28T01:45"
+  },
+  {
+    "url": "archive/production/MOTHER_PRESIDENT_PACK_ASSEMBLER/MARKER_PACK.zip",
+    "name": "MARKER_PACK.zip",
+    "status": "旧稿",
+    "bytes": 24411,
+    "sha256": "d7109a22dab9161bbfe9ab47f02ebf667e0ab471061859f0cee29001f969df8b",
+    "modified": "2026-09-28T01:13"
+  },
+  {
+    "url": "archive/production/MOTHER_PRESIDENT_PACK_ASSEMBLER/MOTHER_PRESIDENT_PACK_ASSEMBLER.zip",
+    "name": "MOTHER_PRESIDENT_PACK_ASSEMBLER.zip",
+    "status": "旧稿",
+    "bytes": 33790577,
+    "sha256": "cf9bbb52173e0c019c276434b26d6db71d4d93f1342fa2ef58167c3495865151",
+    "modified": "2026-09-28T01:46"
+  },
+  {
+    "url": "archive/production/MOTHER_PRESIDENT_PACK_ASSEMBLER/AI_HANDOFF.md",
+    "name": "AI_HANDOFF.md",
+    "status": "旧稿",
+    "bytes": 1908,
+    "sha256": "94a9ebaa7de8b07a6457e6b6e4606c419dab6e20b2006cfc2b0ee164ffcd6a24",
+    "modified": "2026-09-28T01:45"
+  },
+  {
+    "url": "archive/production/MOTHER_PRESIDENT_PACK_ASSEMBLER/README.md",
+    "name": "README.md",
+    "status": "旧稿",
+    "bytes": 4673,
+    "sha256": "74f71354967c4dbf9ebd36e89fff3afc33c0c08854aa790c67ba9a73b4dbb81c",
+    "modified": "2026-09-28T01:45"
+  },
+  {
+    "url": "archive/production/MOTHER_PRESIDENT_TEMPLATE_UPDATE/MOTHER_PRESIDENT_TEMPLATE_UPDATE.zip",
+    "name": "MOTHER_PRESIDENT_TEMPLATE_UPDATE.zip",
+    "status": "旧稿",
+    "bytes": 38349695,
+    "sha256": "729b921b629de99844a23db06ba5f4c7c77f0483b5b7cfd8e6ec9615ba449e55",
+    "modified": "2026-09-27T22:19"
+  },
+  {
+    "url": "archive/production/MOTHER_PRESIDENT_TEMPLATE_UPDATE/sample_ccfolia.zip",
+    "name": "sample_ccfolia.zip",
+    "status": "旧稿",
+    "bytes": 11575197,
+    "sha256": "08106186e96f80f5e97f505f354ca869332849b9f528776f0469da385d4586a7",
+    "modified": "2026-09-27T22:18"
+  },
+  {
+    "url": "archive/production/MOTHER_PRESIDENT_TEMPLATE_UPDATE/README.md",
+    "name": "README.md",
+    "status": "旧稿",
+    "bytes": 2752,
+    "sha256": "2bf3b7306f4cfacd6cb4744e5efb9564f9a229f4b99839ba06527a9947013a89",
+    "modified": "2026-09-27T22:18"
+  }
+]

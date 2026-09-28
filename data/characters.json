@@ -1,0 +1,152 @@
+[
+  {
+    "id": "character_sarah",
+    "title": "サラー",
+    "group": "02 キャラクター",
+    "html": "<p>人物情報は下記の既存HO・行動資料から確認してください。版の異なる情報を混ぜて人物設定を再執筆していません。</p>",
+    "source": "",
+    "version": "資料案内",
+    "secret": false,
+    "character": "",
+    "card": "",
+    "links": [
+      "ho_hub_sarah",
+      "ho_sarah",
+      "ho_v3_sarah",
+      "tl_sarah"
+    ],
+    "notice": "",
+    "search": "人物情報は下記の既存HO・行動資料から確認してください。版の異なる情報を混ぜて人物設定を再執筆していません。",
+    "updated": "2026-09-28T16:51+09:00",
+    "status": "資料案内",
+    "original": ""
+  },
+  {
+    "id": "character_luke",
+    "title": "ルーク",
+    "group": "02 キャラクター",
+    "html": "<p>人物情報は下記の既存HO・行動資料から確認してください。版の異なる情報を混ぜて人物設定を再執筆していません。</p>",
+    "source": "",
+    "version": "資料案内",
+    "secret": false,
+    "character": "",
+    "card": "",
+    "links": [
+      "ho_hub_luke",
+      "ho_luke",
+      "ho_v3_luke",
+      "tl_luke"
+    ],
+    "notice": "",
+    "search": "人物情報は下記の既存HO・行動資料から確認してください。版の異なる情報を混ぜて人物設定を再執筆していません。",
+    "updated": "2026-09-28T16:51+09:00",
+    "status": "資料案内",
+    "original": ""
+  },
+  {
+    "id": "character_doc",
+    "title": "ドク",
+    "group": "02 キャラクター",
+    "html": "<p>人物情報は下記の既存HO・行動資料から確認してください。版の異なる情報を混ぜて人物設定を再執筆していません。</p>",
+    "source": "",
+    "version": "資料案内",
+    "secret": false,
+    "character": "",
+    "card": "",
+    "links": [
+      "ho_hub_doc",
+      "ho_doc",
+      "ho_v3_doc",
+      "tl_doc"
+    ],
+    "notice": "",
+    "search": "人物情報は下記の既存HO・行動資料から確認してください。版の異なる情報を混ぜて人物設定を再執筆していません。",
+    "updated": "2026-09-28T16:51+09:00",
+    "status": "資料案内",
+    "original": ""
+  },
+  {
+    "id": "character_marty",
+    "title": "マーティ",
+    "group": "02 キャラクター",
+    "html": "<p>人物情報は下記の既存HO・行動資料から確認してください。版の異なる情報を混ぜて人物設定を再執筆していません。</p>",
+    "source": "",
+    "version": "資料案内",
+    "secret": false,
+    "character": "",
+    "card": "",
+    "links": [
+      "ho_hub_marty",
+      "ho_marty",
+      "ho_v3_marty",
+      "tl_marty"
+    ],
+    "notice": "",
+    "search": "人物情報は下記の既存HO・行動資料から確認してください。版の異なる情報を混ぜて人物設定を再執筆していません。",
+    "updated": "2026-09-28T16:51+09:00",
+    "status": "資料案内",
+    "original": ""
+  },
+  {
+    "id": "john",
+    "title": "ジョン",
+    "group": "02 キャラクター",
+    "html": "<p>人物情報は下記の既存HO・行動資料から確認してください。版の異なる情報を混ぜて人物設定を再執筆していません。</p>",
+    "source": "",
+    "version": "資料案内",
+    "secret": false,
+    "character": "",
+    "card": "",
+    "links": [
+      "card_09",
+      "card_11",
+      "card_12",
+      "tl_john"
+    ],
+    "notice": "",
+    "search": "人物情報は下記の既存HO・行動資料から確認してください。版の異なる情報を混ぜて人物設定を再執筆していません。",
+    "updated": "2026-09-28T16:51+09:00",
+    "status": "資料案内",
+    "original": ""
+  },
+  {
+    "id": "npc",
+    "title": "その他NPC",
+    "group": "02 キャラクター",
+    "html": "<p>独立したNPC設定集は未確認。第0事件仕様書・読み合わせ原文を参照。</p>",
+    "source": "",
+    "version": "",
+    "secret": false,
+    "character": "",
+    "card": "",
+    "links": [
+      "reading",
+      "case0"
+    ],
+    "notice": "",
+    "search": "独立したNPC設定集は未確認。第0事件仕様書・読み合わせ原文を参照。",
+    "updated": "2026-09-28T16:51+09:00",
+    "status": "資料案内",
+    "original": ""
+  },
+  {
+    "id": "skill_sarah",
+    "title": "サラー固有スキル【横暴】",
+    "html": "<h2 data-section=\"skill_sarah_v2_1\">横暴</h2><p>通常では確認できない追加情報を強引に確認できる。</p><h3 data-section=\"skill_sarah_v2_2\">09【もう一つの2階客室】</h3><p>サラーが【横暴】を使用 → マリリン・モンローのポスターを剥がす → 追加情報公開。</p>",
+    "group": "02 キャラクター",
+    "status": "現在版",
+    "original": "archive/instructions/index-v2.txt",
+    "version": "2026-09-28 作者指定",
+    "source": "index-v2.txt",
+    "links": [
+      "card_09",
+      "ho_hub_sarah"
+    ],
+    "secret": true,
+    "character": "",
+    "card": "",
+    "notice": "",
+    "updated": "2026-09-28T16:51+09:00",
+    "search": "横暴 通常では確認できない追加情報を強引に確認できる。 09【もう一つの2階客室】 サラーが【横暴】を使用 → マリリン・モンローのポスターを剥がす → 追加情報公開。"
+  }
+]

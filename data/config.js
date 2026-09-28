@@ -1,2 +1,2 @@
-// 公開可能なProject URLとpublishable/anon keyのみ。service_roleキーは絶対に置かない。
-window.SITE_CONFIG={supabaseUrl:'',supabaseKey:''};
+// Public API URL only. Never put an author key, key hash, or server secret here.
+window.SITE_CONFIG={memoApi:''};

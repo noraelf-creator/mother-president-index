@@ -1,0 +1,23 @@
+{
+  "sources": {
+    "archive": "archive.html"
+  },
+  "pages": [
+    {
+      "output": "clean/chase/03.html",
+      "source": "archive",
+      "start": "◎まだまだ追ってくる！3/4",
+      "end_before": "4！【逃走開始】カーチェイス！",
+      "required": ["◎まだまだ追ってくる！3/4"],
+      "forbidden": ["4！【逃走開始】カーチェイス！", "◎あと少しで撒ける！4/4"]
+    },
+    {
+      "output": "clean/chase/04.html",
+      "source": "archive",
+      "start": "4！【逃走開始】カーチェイス！",
+      "end_before": null,
+      "required": ["4！【逃走開始】カーチェイス！", "◎あと少しで撒ける！4/4"],
+      "forbidden": []
+    }
+  ]
+}
