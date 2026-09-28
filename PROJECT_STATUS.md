@@ -1,6 +1,6 @@
 # PROJECT_STATUS
 
-更新：2026-09-28T15:20+09:00
+更新：2026-09-28T15:26+09:00
 
 - サイト：https://noraelf-creator.github.io/mother-president-index/
 - GitHub：https://github.com/noraelf-creator/mother-president-index
