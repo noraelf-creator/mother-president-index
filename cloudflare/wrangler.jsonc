@@ -1,0 +1,7 @@
+{
+ "name":"mother-president-sync",
+ "main":"worker/index.mjs",
+ "compatibility_date":"2026-09-28",
+ "vars":{"PROJECT_ID":"mother_president","ALLOWED_ORIGIN":"https://noraelf-creator.github.io","SESSION_DAYS":"30"},
+ "d1_databases":[{"binding":"DB","database_name":"mother-president-author-notes","database_id":"b433abe3-b76c-48ca-ab47-0ac852f575ec","migrations_dir":"migrations"}]
+}

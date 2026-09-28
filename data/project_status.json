@@ -1,6 +1,6 @@
 {
-  "version": "AUTHOR INDEX v2.0",
-  "updated": "2026-09-28T16:57+09:00",
+  "version": "AUTHOR INDEX v2.1 共有同期版",
+  "updated": "2026-09-28T17:23+09:00",
   "phase": "資料統合・作者確認／ココフォリア実機検証待ち",
   "completion": "全体完成率は未測定。収録状況を表示し、推定％は付けません。",
   "locked": [
@@ -24,5 +24,8 @@
   ],
   "siteUrl": "https://noraelf-creator.github.io/mother-president-index/",
   "repository": "https://github.com/noraelf-creator/mother-president-index",
-  "cloud": "編集キーAPI実装済み／Cloudflare接続待ち"
+  "cloud": "Cloudflare Worker＋D1稼働中／mother_president",
+  "workerUrl": "https://mother-president-sync.noraelf-mta-review.workers.dev",
+  "database": "mother-president-author-notes",
+  "projectId": "mother_president"
 }

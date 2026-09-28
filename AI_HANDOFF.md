@@ -1,22 +1,16 @@
-# AI_HANDOFF
+# AI_HANDOFF — 共有同期版
+
+現行コードは index_site/（作業環境では review_site/）と cloudflare/。旧 backend/・旧検証記録は前版です。旧 release-v2.py / publish.cjs を実行すると接続待ちの説明へ戻るため使用しないでください。
 
 公開：https://noraelf-creator.github.io/mother-president-index/
-Git repo: review_site/.git （main）。synced sources/ と元シナリオ資料は編集禁止。
+API：https://mother-president-sync.noraelf-mta-review.workers.dev
+D1：mother-president-author-notes / b433abe3-b76c-48ca-ab47-0ac852f575ec
+projectId：mother_president
 
-## 本文
+Worker Secret AUTHOR_EDIT_KEY。キー実値は配布物・GitHubへ含めない。作者ローカルの .private/作者用編集キー.txt に保管。トークンは30日、DBにはハッシュ保存。GETは公開、書込みはOrigin＋作品スコープ付きトークン照合。
 
-build-v2.py が build.py を呼び原資料から生成後、v2拡張。catalog.jsが正本の表示データ、分野JSONは派生ビュー。旧page_idと既存data-sectionは維持。新メモは同じpage_id/section_idを使う。原ファイルはarchive/にバイト一致コピー。本文detailsはINDEX内でsectionへ変換。原HTML自体は無変更。
+メモは(project_id,page_id,section_id)、TODOは(project_id,todo_key)で一意。revision一致時のみ更新、409時は端末下書き保持。DELETEはソフト削除。旧稿と現在版のIDを統合しない。
 
-作者指定の変更はサラー【横暴】とcard_09特殊調査の公開条件のみ。card_09_before_yokoboとarchive/reviews/に修正前を保存。他資料へ設定を推測で広げない。初期HOを最新と偽らず旧稿表示。
+js/store.js がD1 API＋スコープ付きキャッシュ／outbox／旧ローカル移行。js/site.jsが既存ページ直下UI。45秒更新中もフォーカス中・編集中を置換しない。未反映MarkdownとJSONは毎回D1を取得。JSON復元は不足項目のみ、新UUIDで追加。
 
-## メモ
-
-js/store.js + backend/worker.mjs。旧localStorage mother-index-local-v1 は保全。mother-index-outbox-v2は未同期下書き、mother-index-author-v2は専用トークンだけ。編集キーを保存しない。サーバーSecret AUTHOR_KEY_HASH で256bitランダムキーのSHA256を照合。実デプロイ未実施。data/config.js memoApiは空。編集は無効。
-
-アカウントへの接続が次の必須作業。設定完了後PC-A/PC-Bで実確認し、未完了表示を更新。旧supabase.sqlはv1互換資料で現在使用しない。メール/パスワード認証へ戻さない。
-
-## 検証・公開
-
-python build-v2.py → node test-v2.mjs → python validate-v2.py → python release-v2.py。
-test-v2.mjsはローカルSQLiteとjsdomでの試験。実DB試験や実ブラウザーとは区別。
-公開は review_site をgit commit/push。旧publish.cjsは使用しない（旧docsを上書きする）。ブラウザーでHTTPS公開版を確認。release-v2.pyでZIP更新、ZIPは公開git内に入れない。
+実サーバー試験22項目とローカルDOM試験18項目成功。物理的な別PCは未試験。シナリオ本文を改変していない。README_CLOUDFLARE.md、WEB_VALIDATION.md、validation-sync-*.json参照。

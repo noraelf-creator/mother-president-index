@@ -1,12 +1,14 @@
 # PROJECT_STATUS
 
-2026-09-28 / AUTHOR INDEX v2.0
+2026-09-28 / AUTHOR INDEX v2.1
 
-- 閲覧UI・全資料導線・旧稿アーカイブ・HO総合・全文検索・インラインメモUI：実装済み。
-- 155ページ、原ファイル81件。原本ハッシュ一致。
-- 構造チェック：最新 validation-v2.json を参照。
-- サーバー照合・専用トークン・2クライアント共有・競合保護・下書き再同期・旧メモ移行：ローカルSQLite/API試験で確認。
-- Cloudflareへの実配置・実端末間同期：未完了。作者アカウントの接続が必要。
-- サイトの編集は未接続中無効。共有保存が使えると誤表示しない。
-- 完成HO PDF、本番全カードPNG、本番読み合わせPNG、実ココフォリア・実テストプレイ：未完了／未確認。
-- 第0事件は既存ロック仕様を収録。別荘事件はv3候補＋今回指定の横暴条件。その他を新たにロックしたとは扱わない。
+- 公開サイト：GitHub Pages。共有API：mother-president-sync.noraelf-mta-review.workers.dev。
+- D1：mother-president-author-notes。projectId：mother_president。
+- Worker、D1 migration、Secret AUTHOR_EDIT_KEYを実配置済み。MTAのDBは変更していません。
+- 実Cloudflare＋独立した2クライアントの共有・競合・オフライン復帰等：22項目成功。
+- UI相当の独立DOM＋Worker＋SQLite：18項目成功。自動保存・状態同期・バックアップ・155ページ表示を確認。
+- 物理的な別PC／別ブラウザー試験は未実施。Chromeはこの環境で利用不可。上記独立クライアント試験を実施済み。
+- 実ブラウザー確認結果は WEB_VALIDATION.md を参照。
+- 試験で作成したD1メモ・TODOはソフト削除済み（DB内で復旧可能）。
+- 155ページ・原ファイル81件を維持。シナリオ本文は今回未変更。
+- 完成HO PDF、本番全カードPNG、本番読み合わせPNG、実ココフォリア・実テストプレイは未完了／未確認。
