@@ -27,4 +27,6 @@ backend/: Worker・D1スキーマ・キー生成・設定手順（秘密キー�
 build.py → build-v2.py: 原資料抽出とv2拡張。実行するのは build-v2.py。元のsources/は読み取り専用。
 validation-v2.json / validation-v2-unit.json: 今回の検証。旧validation.json等は前版の記録。
 
+閲覧にインストール作業は不要です。再生成・テストをする開発者だけ、`python -m pip install --target build-deps beautifulsoup4 markdown` と `npm install --prefix test-deps jsdom` を実行してください。元資料のローカル保存先はbuild.pyに記録されています。ZIP単体に原環境の全パスは再現しません。
+
 原資料は変更していません。公開本文の変更は今回許可された横暴・カード09の条件だけです。原ファイルはハッシュ照合で一致を確認。
