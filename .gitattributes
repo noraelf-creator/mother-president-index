@@ -1,2 +1,2 @@
 # Preserve archived source bytes, including original line endings.
-archive/** -text
+v2/archive/** -text
